@@ -1,0 +1,9 @@
+{
+  "appId": "com.ionic.sprigtest",
+  "appName": "Sprig in Ionic and Capacitor",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "hostname": "localhost"
+  }
+}

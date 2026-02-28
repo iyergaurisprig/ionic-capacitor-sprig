@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Ionic Sprig Test</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+  
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+
+  <style>
+    /* 3. Essential Layout Fixes */
+    html, body { height: 100%; margin: 0; padding: 0; }
+    
+    /* This prevents the "stretched button" by defining the app container */
+    ion-app {
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body class="ion-ce">
+  <ion-app>
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Sprig Test</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content class="ion-padding">
+      <ion-button id="track-btn" expand="block" fill="solid">Track Sprig Event</ion-button>
+      <ion-button id="untracked-btn" expand="block" fill="outline">No-Code Attempt</ion-button>
+    </ion-content>
+  </ion-app>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
